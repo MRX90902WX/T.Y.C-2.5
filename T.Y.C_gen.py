@@ -75,9 +75,9 @@ def generar_cc(bin_format):
 def dategen():
   now = datetime.datetime.now()                            
   date = ""                                                                  
-  month = str(randint(3, 12))
+  month = str(randint(1, 12))
   current_year = str(now.year)                                               
-  year = str(random.randint(23, 29))
+  year = str(random.randint(23, 32))
   date = month + "/" + year
 
   return date
